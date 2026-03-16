@@ -35,6 +35,7 @@ spec:
       containers:
       - name: mongodb
         image: mongo:7.0
+        command: ["mongod", "--bind_ip_all"]   # ⭐ IMPORTANT FIX
         ports:
         - containerPort: 27017
         env:
