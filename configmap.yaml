@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: hr-app-config
 data:
-  MONGO_URI: "mongodb://admin:password123@mongodb-service:27017/hr_system?authSource=admin"
+  MONGO_URI: "mongodb://mongodb-service:27017/hr_system"
   DB_NAME: "hr_system"
