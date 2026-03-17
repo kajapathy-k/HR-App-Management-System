@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: hr-app
-        image: rishabhmishra01/hr-app-management-system-main-app:latest
+        image: kajapathyk/hr-app:v1.0.0
         ports:
         - containerPort: 3000
         envFrom:
